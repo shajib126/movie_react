@@ -1,0 +1,28 @@
+$bg:"tomato";
+.header{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin: auto;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        border-right: 1px solid tomato;
+        padding: 0.5rem;
+        transition: all 0.5s ease-in;
+        &:hover{
+            background: tomato;
+        }
+    }
+    img{
+        width: 20%;
+        height: 20vh;
+    }
+    svg{
+        font-size: 2rem;
+        color: rgb(185, 155, 117);
+    }
+}
